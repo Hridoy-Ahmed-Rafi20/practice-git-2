@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/* header */
 .navber {
   display: flex;
   align-items: center;
@@ -36,6 +37,7 @@
   color: rgb(0, 0, 255);
 }
 
+/* hero section */
 .hero-section {
   height: 400px;
   background: rgb(1, 1, 75);
@@ -95,6 +97,7 @@
   font-size: 15px;
 }
 
+/* main */
 .about-section {
   display: flex;
   align-items: center;
@@ -108,10 +111,63 @@
   height: 350px;
 }
 
-#about-content h2{
+#about-content h2 {
   font-size: 40px;
 }
 
-#about-content h2 span{
-  color: rgb(127, 127, 228)
+#about-content h2 span {
+  color: rgb(127, 127, 228);
+}
+
+/* skill section */
+.skil-section {
+  margin-top: 80px;
+}
+
+.skil-section h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.skil-section div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skil-section div ul {
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 200px;
+  font-size: 20px;
+  font-width: bold;
+}
+
+.skil-section #span1 {
+  color: rgb(127, 127, 228);
+}
+
+.skil-section #span2 {
+  color: rgb(1, 1, 80);
+}
+
+.skil-section #span3 {
+  color: rgb(127, 127, 228);
+}
+
+.skil-section #span4 {
+  color: rgb(1, 1, 80);
+}
+
+.skil-section #span5 {
+  color: rgb(127, 127, 228);
+}
+
+.skil-section #span6 {
+  color: rgb(1, 1, 80);
 }
