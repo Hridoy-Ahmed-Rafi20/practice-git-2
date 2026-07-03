@@ -1,14 +1,42 @@
-#navber {
-  width: 100%;
-  height: 50px;
-  background: #111844;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-a {
+.navber {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  list-style: none;
+  margin-left: 40px;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
   text-decoration: none;
-  color: white;
+  color: black;
+}
+
+.logo {
+  color: rgb(0, 0, 255);
+}
+
+.hero-section {
+  height: 400px;
+  background: rgb(2, 2, 107);
 }
