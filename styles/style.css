@@ -10,6 +10,7 @@
   justify-content: space-around;
   background: white;
   padding: 15px 30px;
+  height: 30px;
   font-size: 20px;
   font-weight: bold;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -30,8 +31,29 @@
 
 .nav-links a {
   text-decoration: none;
+  display: inline-block;
   color: black;
+  width: 100px;
+  height: 50%;
+  text-align: center;
 }
+
+.nav-links a:hover {
+  background: white;
+  border: 2px solid rgb(1, 1, 80);
+  border-radius: 15px;
+}
+/* @keyframes nav-links-animation {
+  from {
+    background: white;
+    color: black;
+  }
+  to {
+    background: rgb(1, 1, 80);
+    color: white;
+    border-radius: 15px;
+  }
+} */
 
 .logo {
   color: rgb(0, 0, 255);
@@ -84,6 +106,12 @@
   font-size: 15px;
 }
 
+.introduction-links #btn1:hover {
+  background: white;
+  color: rgb(127, 127, 228);
+  border: none;
+}
+
 .introduction-links #btn2 {
   text-decoration: none;
   display: inline-block;
@@ -97,11 +125,18 @@
   font-size: 15px;
 }
 
+.introduction-links #btn2:hover {
+  background: white;
+  color: rgb(1, 1, 80);
+  border: none;
+}
+
 /* main */
 .about-section {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .about-section img {
@@ -113,15 +148,30 @@
 
 #about-content h2 {
   font-size: 40px;
+  background: rgb(1, 1, 80);
+  display: inline-block;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 10px;
+  border-left: 15px solid orange;
+  border-radius: 10px;
 }
 
 #about-content h2 span {
   color: rgb(127, 127, 228);
 }
+#about-content p {
+  margin-top: 10px;
+  font-size: 18px;
+}
 
 /* skill section */
 .skil-section {
   margin-top: 80px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .skil-section h2 {
@@ -170,4 +220,64 @@
 
 .skil-section #span6 {
   color: rgb(1, 1, 80);
+}
+
+.skil-section #span7 {
+  color: rgb(127, 127, 228);
+}
+
+/* foote */
+footer {
+  background: rgb(1, 1, 80);
+  margin-top: 20px;
+}
+
+#quick-links-section {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#quick-links p {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  color: rgb(127, 127, 228);
+}
+
+#quick-links ul {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#quick-links ul li {
+  list-style: none;
+  margin-top: 8px;
+}
+
+#quick-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#contact p {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  color: rgb(127, 127, 228);
+}
+
+#contact ul li {
+  list-style: none;
+  margin-top: 8px;
+}
+#contact ul {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#contact ul li a {
+  text-decoration: none;
+  color: white;
 }
