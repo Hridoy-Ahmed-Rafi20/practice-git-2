@@ -16,6 +16,7 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+/* nav links */
 .nav-links {
   display: flex;
   align-items: center;
@@ -25,11 +26,13 @@
   margin-left: 40px;
 }
 
+/* nav links list */
 .nav-links li {
   margin-left: 20px;
   padding: 8px;
 }
 
+/* nav links anchor */
 .nav-links a {
   text-decoration: none;
   display: inline-block;
@@ -39,6 +42,7 @@
   text-align: center;
 }
 
+/* added hover effect on naber list */
 nav ul li:hover {
   border-bottom: 2px solid rgb(1, 1, 80);
   /* border-radius: 15px; */
@@ -55,6 +59,7 @@ nav ul li:hover {
   }
 } */
 
+/* logo customizing */
 .logo {
   color: rgb(0, 0, 255);
 }
@@ -67,25 +72,31 @@ nav ul li:hover {
   border: none;
 }
 
+/* hero section's introdcution */
 #hero-introduction {
   padding-top: 80px;
   padding-left: 80px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* hero introduction span customizing */
 #hero-introduction span {
   color: rgb(127, 127, 228);
 }
 
+/* hero section h3 tag customizing */
 #hero-introduction h3 {
   color: rgb(127, 127, 228);
   margin-top: 10px;
 }
 
+/* hero section's paragraph customizing */
 #hero-introduction p {
   color: white;
   margin-top: 50px;
 }
+
+/* hero section's introduction links customizing */
 .introduction-links {
   display: flex;
   align-items: center;
@@ -93,6 +104,7 @@ nav ul li:hover {
   margin-top: 30px;
 }
 
+/* introduction button -1 customizing */
 .introduction-links #btn1 {
   text-decoration: none;
   display: inline-block;
@@ -106,6 +118,7 @@ nav ul li:hover {
   font-size: 15px;
 }
 
+/* adding hove effect on button -1  */
 .introduction-links #btn1:hover {
   background: rgb(1, 1, 80);
   color: white;
@@ -113,10 +126,11 @@ nav ul li:hover {
   cursor: pointer;
 }
 
+/* introduction button-2 customizing */
 .introduction-links #btn2 {
   text-decoration: none;
   display: inline-block;
-  background:white;
+  background: white;
   color: rgb(1, 1, 80);
   padding: 13px;
   height: 50px;
@@ -126,6 +140,7 @@ nav ul li:hover {
   font-size: 15px;
 }
 
+/* adding hover effect on button-2 */
 .introduction-links #btn2:hover {
   background: rgb(1, 1, 80);
   color: white;
@@ -140,6 +155,7 @@ nav ul li:hover {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+/* main section profile photo */
 .about-section img {
   margin-top: 10px;
   background: rgb(1, 1, 75);
@@ -147,6 +163,7 @@ nav ul li:hover {
   height: 350px;
 }
 
+/* main section h2 */
 #about-content h2 {
   font-size: 40px;
   background: rgb(1, 1, 80);
@@ -161,9 +178,12 @@ nav ul li:hover {
   border-radius: 10px;
 }
 
+/* main section span */
 #about-content h2 span {
   color: rgb(127, 127, 228);
 }
+
+/* main section paragraph */
 #about-content p {
   margin-top: 10px;
   font-size: 18px;
