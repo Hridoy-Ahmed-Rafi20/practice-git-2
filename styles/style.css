@@ -27,6 +27,7 @@
 
 .nav-links li {
   margin-left: 20px;
+  padding: 8px;
 }
 
 .nav-links a {
@@ -38,10 +39,9 @@
   text-align: center;
 }
 
-.nav-links li:hover {
-  background: white;
-  border: 2px solid rgb(1, 1, 80);
-  border-radius: 15px;
+nav ul li:hover {
+  background:  lightgray;
+  /* border-radius: 15px; */
 }
 /* @keyframes nav-links-animation {
   from {
